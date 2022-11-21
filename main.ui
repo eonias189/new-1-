@@ -6,12 +6,12 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>719</width>
-    <height>563</height>
+    <width>720</width>
+    <height>565</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Эспрессо</string>
+   <string>Капучино</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <widget class="QTableWidget" name="tableWidget">
@@ -20,7 +20,7 @@
       <x>0</x>
       <y>0</y>
       <width>721</width>
-      <height>501</height>
+      <height>481</height>
      </rect>
     </property>
     <column>
@@ -59,13 +59,39 @@
      </property>
     </column>
    </widget>
+   <widget class="QPushButton" name="add">
+    <property name="geometry">
+     <rect>
+      <x>160</x>
+      <y>490</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string> добавить</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="redact">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>490</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>редактировать</string>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>719</width>
+     <width>720</width>
      <height>21</height>
     </rect>
    </property>
